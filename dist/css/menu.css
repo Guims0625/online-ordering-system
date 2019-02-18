@@ -1,7 +1,9 @@
+/*Header Section Start*/
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: #ebebe3;
 }
 
 header {
@@ -9,10 +11,17 @@ header {
     top: 0;
     left: 0;
     padding: 0 100px;
-    background: #fff;
+    background: #e8e2db;
     width: 100%;
     box-sizing: border-box;
-    border-bottom:yellow 3px solid;
+    border-bottom: #f5564e 3px solid;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 3px;
+    color: #f5564e;
+    font-family: 'Playfair Display', serif;
 }
 
 header .comp {
@@ -75,7 +84,7 @@ header nav ul li a {
 header nav ul li a:hover,
 header nav ul li a.active {
     color: #fff;
-    background: yellow;
+    background: #f5564e;
     transition: .3s;
 }
 
@@ -88,6 +97,9 @@ header nav ul li a.active {
     display: none;
 }
 
+/*Header Section End*/
+
+/*Responsive Section Start*/
 @media (max-width: 991px) {
     header {
         padding: 0 20px;
@@ -130,3 +142,23 @@ header nav ul li a.active {
         width: 100%;
     }
 }
+
+/*Responsive Section End*/
+
+/*Content Section Start*/
+.content {
+    height: 500px;
+}
+
+/*Content Section End*/
+
+/*Footer Section Start*/
+footer {
+    padding: 20px;
+    margin-top: 100px;
+    color: #ffffff;
+    background-color: #f5564e;
+    text-align: center;
+}
+
+/*Footer Section End*/
