@@ -47,12 +47,8 @@ header nav ul li.sub-menu:before {
     font-family: fontAwesome;
     position: absolute;
     line-height: 50px;
-    color: #404040;
-    right: 5px;
-}
-
-header nav ul li.active.sub-menu:before {
-    content: '\f077';
+    color: #fff;
+    right: 2px;
 }
 
 header nav ul li ul {
@@ -80,7 +76,6 @@ header nav ul li a {
     display: block;
 }
 
-header nav ul li a:hover,
 header nav ul li a.active {
     color: #fff;
     background: #f5564e;
