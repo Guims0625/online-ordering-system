@@ -1,0 +1,85 @@
+body {
+    height: 1000px;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+}
+/*Header nav designs start*/
+.navbar-custom {
+    background-color: #f6f6f6;
+    border-bottom: #f5564e 3px solid;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar-custom h3 {
+    margin-left: 20px;
+    color: #f5564e;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    padding: 1rem 1rem;
+}
+
+.navbar-custom .navbar-nav {
+    margin-right: 30px;
+}
+
+
+
+.navbar-custom .nav-item.active,
+.navbar-custom .nav-item:hover {
+    color: #ffffff;
+    background-color: #f5564e;
+    /* add background-color to active links*/
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: #DFDFDF;
+}
+
+.navbar-custom .dropdown-menu a:hover {
+    color: #ffffff;
+    background-color: #f5564e;
+}
+
+/*Header nav end*/
+
+/*Products design start*/
+
+.bimage h6{
+    width: 350px;
+    margin-left: 20%;
+    padding-left: 10%;
+}
+
+.bimage .button{
+    margin-left: 20px;
+}
+.bimage img{
+    transition: transform 1s;
+}
+.bimage img:hover{
+    transform: scale(1.1);
+}
+/*Products design end*/
+
+footer{
+    height: 75px;
+    background-color: #f5564e;
+}
+
+footer p{
+    padding-top: 30px;
+}
