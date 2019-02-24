@@ -3,7 +3,7 @@ body {
 }
 
 img {
-    width: 350px;
+    width: 300px;
     height: 250px;
 }
 
@@ -68,6 +68,9 @@ img {
 .rcustom{
     padding-top: 30px;
 }
+.bimage{
+    background-color: #f6f6f6;
+}
 
 .bimage h6 {
     width: 350px;
@@ -81,6 +84,7 @@ img {
 
 .bimage img {
     transition: transform 1s;
+    
 }
 
 .bimage img:hover {
