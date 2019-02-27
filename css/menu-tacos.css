@@ -160,7 +160,11 @@ hr.light {
     margin-bottom: 1rem;
 }
 
-/*Footer Section*/
+footer h2 {
+    color: #f5564e;
+    font-family: 'Roboto Slab', serif;
+}
+
 footer a {
     color: #d5d5d5;
 }
