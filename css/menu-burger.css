@@ -88,8 +88,7 @@ body {
 
 .bimage h6 {
     width: 350px;
-    margin-left: 20%;
-    padding-left: 10%;
+    margin: 0 auto 0 auto;
 }
 
 .bimage .button {
@@ -97,6 +96,7 @@ body {
 }
 
 .bimage img {
+    width: 249px;
     transition: transform 1s;
 
 }
