@@ -78,31 +78,25 @@ body {
 
 /*Products design start*/
 
+.prod {
+    font-family: 'Roboto Slab', serif;
+    padding-top: 80px;
+}
+
 .rcustom {
     padding-top: 30px;
 }
 
-.bimage {
-    border: 2px solid #E8E2DB;
+.card {
+    overflow: hidden;
 }
 
-.bimage h6 {
-    width: 350px;
-    margin: 0 auto 10px auto;
+.card-img-top {
+    transition: transform .5s;
 }
 
-.bimage .button {
-    margin-left: 20px;
-}
-
-.bimage img {
-    width: 249px;
-    transition: transform 1s;
-
-}
-
-.bimage img:hover {
-    transform: scale(1.1);
+.card-img-top:hover {
+    transform: scale(1.03);
 }
 
 /*Products design end*/
@@ -156,9 +150,14 @@ hr.light {
     margin-bottom: 1rem;
 }
 
+footer img {
+    cursor: pointer;
+}
+
 footer h2 {
     color: #f5564e;
     font-family: 'Roboto Slab', serif;
+    cursor: pointer;
 }
 
 footer a {

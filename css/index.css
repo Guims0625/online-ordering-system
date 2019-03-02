@@ -106,7 +106,7 @@ html, body {
 }
 
 .card-img-top {
-  transition: transform 1s;
+  transition: transform .5s;
 }
 
 .card-img-top:hover {
@@ -160,9 +160,14 @@ hr.light {
   margin-bottom: 1rem;
 }
 
+footer img {
+  cursor: pointer;
+}
+
 footer h2 {
   color: #f5564e;
   font-family: 'Roboto Slab', serif;
+  cursor: pointer;
 }
 
 footer a {
