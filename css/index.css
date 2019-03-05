@@ -9,14 +9,14 @@ html, body {
 }
 
 /*Header Section*/
-.navbar-custom {
+.navbar {
   background-color: #f6f6f6;
   border-bottom: #f5564e 3px solid;
   padding: 0;
   margin: 0;
 }
 
-.navbar-custom h3 {
+nav h3 {
   margin-left: 20px;
   color: #f5564e;
   font-family: 'Roboto Slab', serif;
