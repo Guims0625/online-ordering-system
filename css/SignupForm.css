@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+/*Header Section*/
+.navbar-custom {
+  background-color: #f6f6f6;
+  border-bottom: #f5564e 3px solid;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-custom h3 {
+  margin-left: 20px;
+  color: #f5564e;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: black;
+
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: black;
+  padding: 1rem 1rem;
+}
+
+.navbar-custom .navbar-nav {
+  margin-right: 30px;
+}
+
+.navbar-custom .nav-item.active,
+.navbar-custom .nav-item:hover {
+  color: #ffffff;
+  background: lightgrey;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.navbar-custom .dropdown-menu {
+  background-color: #DFDFDF;
+}
+
+.navbar-custom .dropdown-menu a:hover {
+  color: #ffffff;
+  background-color: #f5564e;
+  transition: .3s;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+/*General*/
+.padding {
+  padding-bottom: 2rem;
+}
+
+/*Signup Form*/
+.form-background {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.note {
+
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  height: 60px;
+  background: #f5564e;
+  color: #fff;
+  font-weight: bold;
+  line-height: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.note h5 {
+  padding-top: 20px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-content {
+  padding: 2%;
+  border: 1px solid #ced4da;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #fff;
+
+}
+
+.form-control {
+  border-radius: 1.5rem;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.btnSubmit {
+
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1%;
+  width: 30%;
+  cursor: pointer;
+  background: #fc1616;
+  color: #fff;
+}
+
+/*Footer Section*/
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer img {
+  cursor: pointer;
+}
+
+footer h2 {
+  color: #f5564e;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+.hours {
+  margin-top: 30px;
+}
+
+footer h5 {
+  color: #f5564e;
+}
